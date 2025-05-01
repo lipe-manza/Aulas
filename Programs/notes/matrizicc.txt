@@ -1,0 +1,13 @@
+
+use 2 fors to travel the matrix( i->exterior for lines and j->interior for colums);
+
+make a function that sum the numbers of the colums and the lines for the equation(with two sums and return Sj Si);
+
+Pyx is the size of the matrix like 3x3;
+
+n=matrix order 
+
+pyx= the former value of the matrix iniciated
+
+use math.h
+
