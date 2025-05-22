@@ -1,0 +1,18 @@
+Data: 6/05/2025
+
+Projeto: Subtrator-completo.
+Hoje realizamos um projeto de um sutrato completo de 1 bit.
+Para isso foi feito um sistema no Quartus do subtrator que funciona a partir de pins e leds.
+
+Placa utilizada:
+(Placa Grande) DE2-115:
+Cyclone IV E: EP4CE115F29C7
+
+Pins:
+SW0 - bin - PIN_AB28
+SW1 - h2 - PIN_AC28
+SW2 - h1 - PIN_AC27
+
+Leds:
+LEDR[0] - sub - PIN_G19
+LEDR[1] - bout - PIN_F19

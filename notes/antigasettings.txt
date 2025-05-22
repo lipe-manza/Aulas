@@ -1,10 +1,9 @@
 {
   "workbench.editor.showTabs": "none",
-  "window.zoomLevel": 0,
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.indent": 16,
   "material-icon-theme.folders.theme": "classic",
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.lineHeight": 1.8,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 120,
@@ -14,26 +13,16 @@
   "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": true,
   "workbench.editor.labelFormat": "short",
-  "explorer.compactFolders": false,
-  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": true,
   "editor.minimap.autohide": false,
   "editor.semanticHighlighting.enabled": false,
   "workbench.activityBar.location": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "diffEditor.wordWrap": "on",
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset"
-  },
-  "apc.stylesheet": {
-    ".tittle-label >h2": "disply none",
-    ".pane-body": "padding: 10px",
-    ".pane-header": "padding 0 10px"
-  },
   "apc.listRow": {
     "height": 24
   },
-  "workbench.layoutControl.enabled": false,
   "editor.minimap.enabled": false,
   "workbench.sideBar.location": "right",
   "editor.accessibilitySupport": "off",
@@ -41,16 +30,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Sublime Monokai",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontSize": 18,
+  "editor.fontSize": 15,
   "editor.fontWeight": "normal",
-  "workbench.preferredDarkColorTheme": "Aura Dracula Spirit (Soft)",
   "chat.commandCenter.enabled": false,
   "code-runner.runInTerminal": true,
   "gitlens.views.scm.grouped.views": {
@@ -65,5 +52,19 @@
     "searchAndCompare": false,
     "launchpad": true
   },
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "editor.stickyScroll.enabled": false,
+  "livePreview.notifyOnOpenLooseFile": false,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "window.titleBarStyle": "custom",
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.colorTheme": "Sublime Monokai"
 }
