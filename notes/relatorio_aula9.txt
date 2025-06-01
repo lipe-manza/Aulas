@@ -1,0 +1,68 @@
+Data: 20/05/2025
+
+Projeto: somador-subtrator completo.
+Hoje realizamos um projeto de um somador-subtrator completo de 4 bits.
+Para isso utilizamos 4 sistemas de displays de 7 segmentos(feitos na aula 04) e tres leds para mostrar os sinais;
+Dois displays foram usados para mostrar os números que irão ser somados ou subtraidos(display0-display2),
+outro foi usado para mostrar o resultado da soma ou subtração(display4),e outro para mostrar o overflow(display6).
+
+Placa utilizada:
+(Placa Grande) DE2-115:
+Cyclone IV E: EP4CE115F29C7
+
+Pins:
+SWO - x0 - PIN_AB28
+SW1 - x1 - PIN_AC28
+SW2 - x2 - PIN_AC27
+SW3 - x3 - PIN_AD27
+SW4 - sinal1 - PIN_AB27
+
+SW8 - sinal3 - PIN_AC25
+
+SW13 - y0 - PIN_AA24
+SW14 - y1 - PIN_AA23
+SW15 - y2 - PIN_AA22
+SW16 - y3 - PIN_Y22
+SW17 - sinal2 - PIN_Y23
+
+Leds:
+
+LEDR4	- ledsinal1 - PIN_F18
+LEDR8	- ledsinal2 - PIN_J17
+LEDR17- ledsinal3 - PIN_H15
+
+Displays:
+
+HEX[0] - SEGA1 - PIN_G18
+HEX[0] - SEGB1 - PIN_F22
+HEX[0] - SEGC1 - PIN_E17
+HEX[0] - SEGD1 - PIN_L26
+HEX[0] - SEGE1 - PIN_L25
+HEX[0] - SEGF1 - PIN_J22
+HEX[0] - SEGG1 - PIN_H22
+
+HEX[2] - SEGA2 - PIN_AA25
+HEX[2] - SEGB2 - PIN_AA26
+HEX[2] - SEGC2 - PIN_Y25
+HEX[2] - SEGD2 - PIN_W26
+HEX[2] - SEGE2 - PIN_Y26
+HEX[2] - SEGF2 - PIN_W27
+HEX[2] - SEGG2 - PIN_W28
+
+HEX[4] - SEGA3 - PIN_AB19
+HEX[4] - SEGB3 - PIN_AA19
+HEX[4] - SEGC3 - PIN_AG21
+HEX[4] - SEGD3 - PIN_AH21
+HEX[4] - SEGE3 - PIN_AE19
+HEX[4] - SEGF3 - PIN_AF19
+HEX[4] - SEGG3 - PIN_AE18
+
+HEX[6] - SEGA4 - PIN_AA17
+HEX[6] - SEGB4 - PIN_AB16
+HEX[6] - SEGC4 - PIN_AA16
+HEX[6] - SEGD4 - PIN_AB17
+HEX[6] - SEGE4 - PIN_AB15
+HEX[6] - SEGF4 - PIN_AA15
+HEX[6] - SEGG4 - PIN_AC17
+
+

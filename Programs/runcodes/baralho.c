@@ -16,26 +16,43 @@ const char *baralho[4][13] = {
 
 int main()
 {
-  int n = 0, count = 0;
+
+  int n = 0;
   scanf("%d", &n);
-  char entrada[n][4];
-  int m[4][13];
-  for (int i = 0; i < n + 1; i++)
+  char entrada[n][4];//arr de strings com n strings de no maximo 3chars+\0
+  int m[4][13]={0};//matriz que vou utilizar para colocar 1 e 0
+  //le a entrada de varias strings lendo no maximo 3 caracteres
+  for (int i = 0; i < n; i++)
   {
-    scanf("%3s", &entrada[i]);
+    scanf("%3s", entrada[i]);
   }
-
-  for (int i = 0; i < 4; i++)
+  //comparação entre as entradas e a matriz "baralho"
+  for (int k = 0; k < n; k++) // roda as entradas
   {
-    for (int j = 0, k = 0; j < 13 && k < n; j++ && k++)
+    for (int i = 0; i < 4; i++) // roda os nipes
     {
-      if (strcmp(baralho[i][j], entrada[i][1]) == 0)
+      for (int j = 0; j < 13; j++) // roda as cartas
       {
-        m[i][j] += 1;
-
+        if (strcmp(baralho[i][j], entrada[k]) == 0)
+        {
+          m[i][j] += 1;
+        }
       }
     }
   }
+
+  char *naipes[] = {"Copas", "Ouros", "Paus ", "Espadas"};//para printar
+  char *valores[] = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
+
+  for (int i = 0; i < 4; i++) // roda os nipes
+  {
+    printf("Naipe: %s\n", naipes[i]);
+    for (int j = 0; j < 13; j++) // roda as cartas
+    {
+      printf("%s: %d\n", valores[j], m[i][j]);
+    }
+  }
+  return 0;
 }
 
 /*
@@ -47,8 +64,8 @@ int main()
     -------------------------------------------------------------------------
     |   0    | Copas    | Ás  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | Val | Dam | Rei |
     |   1    | Ouros    | Ás  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | Val | Dam | Rei |
-    |   2    | Espadas  | Ás  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | Val | Dam | Rei |
-    |   3    | Paus     | Ás  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | Val | Dam | Rei |
+    |   2    | Paus     | Ás  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | Val | Dam | Rei |
+    |   3    | Espada   | Ás  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | Val | Dam | Rei |
     -------------------------------------------------------------------------
 
     Explicação:

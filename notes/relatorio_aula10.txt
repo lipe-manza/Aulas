@@ -1,0 +1,65 @@
+Data: 27/05/2025
+
+Projeto: multiplicador.
+Hoje realizamos um projeto de um multiplicador completo de 4 bits.
+Para isso utilizamos 4 sistemas de displays de 7 segmentos(feitos na aula 04) e mais três displays para mostrar os sinais;
+Dois displays foram usados para mostrar os números que irão ser multiplicados (display6-display4),
+outros dois foram utilizados para mostrar o resultado da multiplicação(displays 1 e 0).
+
+Placa utilizada:
+(Placa Grande) DE2-115:
+Cyclone IV E: EP4CE115F29C7
+
+Pins:
+SWO - X0 - PIN_AB28
+SW1 - X1 - PIN_AC28
+SW2 - X2 - PIN_AC27
+SW3 - X3 - PIN_AD27
+SW4 - SINALX - PIN_AB27
+
+
+SW13 - Y0 - PIN_AA24
+SW14 - Y1 - PIN_AA23
+SW15 - Y2 - PIN_AA22
+SW16 - Y3 - PIN_Y22
+SW17 - SINALY - PIN_Y23
+
+Displays:
+
+HEX[0] - D1 - PIN_G18
+HEX[0] - D2 - PIN_F22
+HEX[0] - D3 - PIN_E17
+HEX[0] - D4 - PIN_L26
+HEX[0] - D5 - PIN_L25
+HEX[0] - D6 - PIN_J22
+HEX[0] - D7 - PIN_H22
+
+HEX[1] - D21 - PIN_M24
+HEX[1] - D22 - PIN_Y22
+HEX[1] - D23 - PIN_W21
+HEX[1] - D24 - PIN_W22
+HEX[1] - D25 - PIN_W25
+HEX[1] - D26 - PIN_U23
+HEX[1] - D27 - PIN_U24
+HEX[2] - SINALDM - PIN_W28
+
+HEX[4] - D31 - PIN_AB19
+HEX[4] - D32 - PIN_AA19
+HEX[4] - D33 - PIN_AG21
+HEX[4] - D34 - PIN_AH21
+HEX[4] - D35 - PIN_AE19
+HEX[4] - D36 - PIN_AF19
+HEX[4] - D37 - PIN_AE18
+
+HEX[5] - SINALDY - PIN_AH18
+
+HEX[6] - D41 - PIN_AA17
+HEX[6] - D42 - PIN_AB16
+HEX[6] - D43 - PIN_AA16
+HEX[6] - D44 - PIN_AB17
+HEX[6] - D45 - PIN_AB15
+HEX[6] - D46 - PIN_AA15
+HEX[6] - D47 - PIN_AC17
+
+HEX[7] - SINALDX - PIN_AA14
+

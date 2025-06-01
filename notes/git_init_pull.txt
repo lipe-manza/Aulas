@@ -1,0 +1,3 @@
+git init // dentro da pasta que eu desejo jogar os arquivos
+
+git pull link do repositorio no github//
