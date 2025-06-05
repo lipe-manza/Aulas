@@ -9,12 +9,13 @@ int main()
   s1 = (char **)malloc(sizeof(char *) * 3);
   for (int i = 0; i < 3; i++)
   {
-    s1[i] = (char *)malloc(sizeof(char) * 7000);
+    s1[i] = (char *)malloc(sizeof(char) * 10001);
   }
+
   // leitura
   for (int i = 0; i < 2; i++)
   {
-    scanf(" %6999[^\n]", s1[i]);
+    scanf(" %10000[^\n]", s1[i]);
   }
 
   // usar para comparação
@@ -31,9 +32,9 @@ int main()
       limite = -1;
     for (int i = 0; i <= limite; i++)
     {
-      if (strncmp(s1[0] + i, s1[1], tamanho) == 0)
+      if (memcmp(s1[0] + i, s1[1], tamanho) == 0)
       {
-        strncpy(s1[2], s1[0] + i, tamanho);
+        memcpy(s1[2], s1[0] + i, tamanho);
         s1[2][tamanho] = '\0';
         maior = tamanho;
         break;

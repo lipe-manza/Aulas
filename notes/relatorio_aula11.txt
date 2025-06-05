@@ -1,0 +1,69 @@
+Data: 05/06/2025
+
+Projeto: Divisor.
+Hoje realizamos um projeto de um dividor completo de 4 bits.
+Para isso utilizamos 4 sistemas de displays de 7 segmentos(feitos na aula 04) e mais 2 displays para mostrar os sinais;
+Dois displays foram usados para mostrar os números que irão ser divididos(dividendo e divisor) (display4-display2),
+outros dois foram utilizados para mostrar o resultado da divisão(quociente e resto) (displays 1 e 0).
+
+Placa utilizada:
+(Placa Pequena) DE0-CV:
+Cyclone V: 5CEBA4F23C7
+
+Pins:
+SW0 - Y0 - PIN_U13
+SW1 - Y1 - PIN_V13
+SW2 - Y2 - PIN_T13
+SW3 - Y3 - PIN_T12
+SW4 - sinyly - PIN_AA15
+
+SW5 - X0 - PIN_AB15
+SW6 - X1 - PIN_AA14
+SW7 - X2 - PIN_AA13
+SW8 - X3 - PIN_AB13
+SW9 - sinylx - PIN_AB12
+
+Leds:
+LED[2] - sinyldq - PIN_W2
+LED[0] -  sinyldr - PIN_AA2
+
+
+Displays:
+
+HEX[5] - sinaldx - PIN_W19
+HEX[4] - d1 - PIN_U20
+HEX[4] - d2 - PIN_Y20
+HEX[4] - d3 - PIN_V20
+HEX[4] - d4 - PIN_U16
+HEX[4] - d5 - PIN_U15
+HEX[4] - d6 - PIN_Y15
+HEX[4] - d7 - PIN_P9
+
+
+HEX[3] -sinyldy -PIN_V19
+HEX[2] - d11 - IN_Y19
+HEX[2] - d12 - PIN_AB17
+HEX[2] - d13 - PIN_AA10
+HEX[2] - d14 - PIN_Y14
+HEX[2] - d15 - PIN_V14
+HEX[2] - d16 - PIN_AB22
+HEX[2] - d17 - PIN_AB21
+
+HEX[1] - d31 - PIN_AA20
+HEX[1] - d32 - PIN_AB20
+HEX[1] - d33 - PIN_AA19
+HEX[1] - d34 - PIN_AA18
+HEX[1] - d35 - PIN_AB18
+HEX[1] - d36 - PIN_AA17
+HEX[1] - d37 - PIN_U22
+
+HEX[0] - d41 - PIN_U21
+HEX[0] - d42 - PIN_V21
+HEX[0] - d43 - PIN_W22
+HEX[0] - d44 - PIN_W21
+HEX[0] - d45 - PIN_Y22
+HEX[0] - d46 - PIN_Y21
+HEX[0] - d47 - PIN_AA22
+
+
+
